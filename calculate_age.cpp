@@ -17,7 +17,7 @@ int main(){
 
   if(age_in_month < 0) {
     age_in_year--;
-    age_in_month = 12 + age_in_month;
+    age_in_month = 12 + age_in_month-1;
   }
 
   cout << "You are " << age_in_year << "year and " << age_in_month << "month ";
