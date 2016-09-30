@@ -20,8 +20,7 @@ int main(){
     age_in_month = 12 + age_in_month-1;
   }
 
-  cout << "You are " << age_in_year << "year and " << age_in_month << "month ";
-  cout << "Old now \n";
+  cout << "You are " << age_in_year << "year and " << age_in_month << "month Old now \n";
   return 0;
 
 }
