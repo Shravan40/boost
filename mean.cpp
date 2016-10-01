@@ -4,6 +4,7 @@
 #include <boost/accumulators/statistics/mean.hpp>
 #include <boost/accumulators/statistics/moment.hpp>
 using namespace boost::accumulators;
+using namespace std;
 
 int main()
 {
@@ -19,7 +20,6 @@ int main()
 
   // Display the results ...
   std::cout << "Mean:   " << mean(acc) << std::endl;
-  std::cout << "Moment: " << accumulators::moment<2>(acc) << std::endl;
 
   return 0;
 }
